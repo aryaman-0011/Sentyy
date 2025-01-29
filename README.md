@@ -1,5 +1,19 @@
 # Sentiment Analyzer API and Dashboard
 
+This project is a **Sentiment Analysis Web Application** built using **Flask**, **TextBlob**, and **Streamlit**. It consists of three key components:
+
+## Components
+
+### 1. **Flask API (`app.py`)**
+A simple API that processes POST requests to analyze the sentiment of the provided text using the `analyze_sentiment` function from `sentiment_analysis.py`.
+
+### 2. **Sentiment Analysis Module (`sentiment_analysis.py`)**
+Uses **TextBlob** to determine the sentiment polarity, categorizing text as **Positive**, **Negative**, or **Neutral** based on polarity scores.
+
+### 3. **Streamlit Dashboard (`dashboard.py`)**
+Provides a user-friendly interface for inputting text and viewing sentiment analysis results. It communicates with the Flask API for real-time sentiment evaluation.
+
+
 This project provides a comprehensive sentiment analysis application using Flask and Streamlit. The application includes an API to process text and analyze its sentiment using the TextBlob library. Additionally, a user-friendly dashboard is provided for interactive analysis.
 
 ## Project Structure
