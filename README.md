@@ -65,7 +65,7 @@ The dashboard will open in your web browser.
 {
   "text": "I love this project!",
   "sentiment": {
-    "polarity": 0.9,
+    "polarity": 0.5,
     "sentiment": "Positive"
   }
 }
@@ -78,7 +78,7 @@ The dashboard will open in your web browser.
 4. View the sentiment result and polarity score.
 
 ## Example Screenshot
-Include a screenshot of the Streamlit dashboard here for better visualization.
+![Screenshot (1)](https://github.com/user-attachments/assets/d8041f20-0d10-4dbb-8b3b-6bae76e297fd)
 
 ## Error Handling
 - If no text is provided to the API, it returns:
